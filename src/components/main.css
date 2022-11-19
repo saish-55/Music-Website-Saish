@@ -1,0 +1,136 @@
+.main-main {
+  width: 707px;
+  height: 179px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.main-joinnow {
+  left: 0px;
+  color: #fffdfd;
+  bottom: 6px;
+  position: absolute;
+  transition: 0.3s;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: rgb(37, 143, 218);
+}
+.main-joinnow:hover {
+  background-color: var(--dl-color-primary-500);
+}
+.main-text {
+  top: 0px;
+  left: 0px;
+  color: #ffffff;
+  position: absolute;
+  font-size: 4rem;
+  text-align: center;
+}
+.main-text1 {
+  top: 86px;
+  left: 0px;
+  color: rgb(253, 251, 251);
+  position: absolute;
+  font-size: 2rem;
+}
+.main-root-class-name {
+  top: 20%;
+  right: 10%;
+  position: absolute;
+}
+@media(max-width: 1600px) {
+  .main-main {
+    top: 20%;
+    right: 5%;
+    justify-content: flex-start;
+  }
+  .main-joinnow {
+    left: 0px;
+    bottom: 0px;
+    height: 37px;
+  }
+  .main-text {
+    top: 0px;
+    left: 0px;
+  }
+  .main-text1 {
+    left: 0px;
+    bottom: 48.80680847167969px;
+  }
+}
+@media(max-width: 1200px) {
+  .main-main {
+    left: 35%;
+    bottom: 50%;
+  }
+}
+@media(max-width: 991px) {
+  .main-main {
+    top: 80px;
+    right: -12px;
+    width: 571px;
+  }
+  .main-joinnow {
+    left: 0px;
+    bottom: 40px;
+  }
+  .main-text {
+    font-size: 3rem;
+  }
+  .main-text1 {
+    top: 67px;
+    left: 0px;
+    color: rgb(253, 251, 251);
+    font-size: 1.5rem;
+  }
+}
+@media(max-width: 767px) {
+  .main-main {
+    top: 55px;
+    right: -2px;
+    width: 439px;
+  }
+  .main-joinnow {
+    top: 108px;
+    left: 0px;
+    width: 71px;
+    height: 26px;
+    margin: auto;
+    font-size: 10px;
+    padding-left: 13px;
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .main-text {
+    left: 0px;
+    font-size: 2.5rem;
+  }
+  .main-text1 {
+    top: 59px;
+    left: 1px;
+    color: rgb(253, 251, 251);
+    font-size: 1.3rem;
+  }
+}
+@media(max-width: 479px) {
+  .main-main {
+    top: 351px;
+    left: var(--dl-space-space-twounits);
+    right: 23px;
+    width: 254px;
+    height: 128px;
+  }
+  .main-joinnow {
+    top: 85px;
+    left: 0px;
+    bottom: 0px;
+  }
+  .main-text {
+    font-size: 2rem;
+  }
+  .main-text1 {
+    top: 48px;
+    left: 1px;
+    font-size: 1rem;
+  }
+}
